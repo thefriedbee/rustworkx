@@ -637,6 +637,7 @@ def draw_edges(
 
     # set edge positions
     edge_pos_keys = dict()
+    print("should be dict instead of set.")
     for e in edge_list:
         edge_pos_keys[(tuple(pos[e[0]]), tuple(pos[e[1]]))] = None
     edge_pos = edge_pos_keys.keys()
